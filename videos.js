@@ -25,5 +25,12 @@ const VIDEOS = [
     date: "2025-10-05",
     desc: "Pres kırma prensipleri: üçüncü adam koşusu, ters oyun ve pas açıları. (Özgün yaz.)",
     tags: ["taktik", "pres", "analiz"]
-  }
-];
+  },
+  {
+    id: "RDmLqzmYaQv3E&index=2",
+    title: "Müslüm Baba-Bakma Bana Öyle Bakma",
+    cat: "müslüm",
+    date: "2025-12-01",
+    desc: "Bu videoda müslüm babanın derin duyguları yer alır.",
+    tags: 
+  },
