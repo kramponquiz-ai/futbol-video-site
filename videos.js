@@ -34,3 +34,23 @@ const VIDEOS = [
     desc: "Bu videoda müslüm babanın derin duyguları yer alır.",
     tags: 
   },
+
+  {
+    id: "RDjQ-fv86Cz5g&start_radio=1",
+    title: "Fenerbahçe Marş",
+    cat: "100.yıl marşı",
+    date: "2024-12-01",
+    desc: "Açıklama",
+    tags: ["gol"]
+  },
+
+  {
+    id: "VIDEO_ID_BURAYA",
+    title: "VİDEO BAŞLIĞI BURAYA",
+    cat: "Maç Özeti",
+    date: "2025-01-10",
+    desc: "Bu videoda maçın önemli anları, goller ve kısa analiz yer almaktadır. Açıklamayı mutlaka özgün yaz.",
+    tags: ["futbol", "gol", "özet"]
+  }
+];
+
