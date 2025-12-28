@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Video | Futbol Video</title>
+  <meta name="description" content="Futbol videosu detay sayfası." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top__inner">
+      <a class="brand" href="./">⚽ Futbol Video</a>
+      <nav class="nav">
+        <a href="./" class="nav__link">Videolar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- AdSense placeholder -->
+    <section class="ad">
+      <div class="ad__box">Reklam Alanı (728x90 / 320x100) — AdSense onayından sonra kod eklenir</div>
+    </section>
+
+    <section class="card">
+      <h1 id="title">Video</h1>
+      <p class="muted" id="meta">—</p>
+
+      <div class="player">
+        <iframe id="yt" title="YouTube video"
+          loading="lazy"
+          src=""
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="content">
+        <h2>Kısa Açıklama</h2>
+        <p id="desc" class="muted"></p>
+
+        <div class="tags" id="tags"></div>
+
+        <div class="actions">
+          <a class="btn" href="./">← Tüm videolar</a>
+          <button class="btn btn--primary" id="copyBtn">Linki Kopyala</button>
+        </div>
+        <p class="muted" id="copyHint"></p>
+      </div>
+    </section>
+
+    <section class="ad">
+      <div class="ad__box">Reklam Alanı (300x250)</div>
+    </section>
+
+    <section class="card">
+      <h2>Benzer Videolar</h2>
+      <div id="related" class="grid"></div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Futbol Video</span>
+    </footer>
+  </main>
+
+  <script src="videos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

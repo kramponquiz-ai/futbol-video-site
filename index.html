@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Futbol Videoları | Özetler, Goller, Analiz</title>
+  <meta name="description" content="Futbol videoları: goller, maç özetleri, taktik analiz, ilginç anlar. Hızlı, mobil uyumlu video arşivi." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top__inner">
+      <a class="brand" href="./">⚽ Futbol Video</a>
+
+      <nav class="nav">
+        <a href="./" class="nav__link nav__link--active">Videolar</a>
+        <a href="#hakkinda" class="nav__link">Hakkında</a>
+        <a href="#gizlilik" class="nav__link">Gizlilik</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- AdSense placeholder -->
+    <section class="ad">
+      <div class="ad__box">Reklam Alanı (728x90 / 320x100) — AdSense onayından sonra kod eklenir</div>
+    </section>
+
+    <section class="hero">
+      <h1>Futbol Videoları</h1>
+      <p>Goller • Özetler • Taktik Analiz • Transfer / İlginç Anlar</p>
+    </section>
+
+    <section class="tools card">
+      <div class="tools__row">
+        <label class="field">
+          <span>Ara</span>
+          <input id="q" type="search" placeholder="Örn: Messi, Fenerbahçe, gol, taktik..." />
+        </label>
+
+        <label class="field">
+          <span>Kategori</span>
+          <select id="cat">
+            <option value="all">Hepsi</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Sıralama</span>
+          <select id="sort">
+            <option value="new">Yeni → Eski</option>
+            <option value="old">Eski → Yeni</option>
+            <option value="title">Başlık (A→Z)</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="muted hidden">Sonuç bulunamadı.</p>
+    </section>
+
+    <!-- Hakkında -->
+    <section id="hakkinda" class="card">
+      <h2>Hakkında</h2>
+      <p>
+        Bu site futbol videolarını düzenli bir arşiv halinde sunar. Her video sayfasında kısa açıklama ve anahtar bilgiler yer alır.
+      </p>
+      <ul class="list">
+        <li>Mobil uyumlu hızlı tasarım</li>
+        <li>Arama + kategori filtre</li>
+        <li>Video detay sayfası + açıklama</li>
+      </ul>
+    </section>
+
+    <!-- Gizlilik -->
+    <section id="gizlilik" class="card">
+      <h2>Gizlilik Politikası (Özet)</h2>
+      <p>
+        Bu sitede doğrudan kişisel veri toplayan form bulunmaz. Trafik ölçümü ve reklam gösterimi için çerezler kullanılabilir.
+        Google AdSense, reklamları kişiselleştirmek/ölçmek için çerez kullanabilir. Çerez ayarlarını tarayıcınızdan yönetebilirsiniz.
+      </p>
+      <p class="muted">
+        Not: Site büyüdükçe “Çerez Politikası” ve “İletişim” sayfasını da detaylandırmak iyi olur.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Futbol Video</span>
+      <span class="dot">•</span>
+      <span class="muted">Hızlı • Sade • SEO odaklı</span>
+    </footer>
+  </main>
+
+  <script src="videos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
